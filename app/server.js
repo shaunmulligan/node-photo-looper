@@ -1,4 +1,4 @@
-var pitft = require("../pitft");
+var pitft = require("pitft");
 
 var fb = pitft("/dev/fb1"); // Returns a framebuffer in direct mode.  See the clock.js example for double buffering mode
 
