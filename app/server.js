@@ -17,6 +17,7 @@ var imageCounter = 0;
 var update = function() {
   if (imageCounter < imageList.length) {
     fb.clear();
+    console.log('displaying Image: ' + imageList[imageCounter]);
     fb.image(x, y, "images/" + imageList[imageCounter]); // Draw the image at position x, y
     imageCounter++;
   } else {
