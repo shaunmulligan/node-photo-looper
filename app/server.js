@@ -7,6 +7,7 @@ fb.clear();
 
 var x = 0; //fb.size().width;
 var y = 0; //fb.size().height;
+var period = process.env['PERIOD'] || 1000
 
 var imageList = ["GE_logo.png", "rpi_logo.png"];
 var imageCounter = 0;
@@ -25,4 +26,4 @@ var update = function() {
 
 setInterval(function() {
   update();
-}, 1000);
+}, period);
