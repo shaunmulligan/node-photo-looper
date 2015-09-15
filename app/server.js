@@ -5,8 +5,8 @@ var fb = pitft("/dev/fb1"); // Returns a framebuffer in direct mode.  See the cl
 // Clear the screen buffer
 fb.clear();
 
-var xMax = 0; //fb.size().width;
-var yMax = 0; //fb.size().height;
+var x = 0; //fb.size().width;
+var y = 0; //fb.size().height;
 
 var imageList = ["GE_logo.png", "rpi_logo.png"];
 var imageCounter = 0;
